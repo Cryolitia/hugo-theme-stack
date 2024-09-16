@@ -27,6 +27,9 @@ $defaultTagColors: $nord6, $nord6, $nord6, $nord6, $nord6;
     --scrollbar-thumb: #{$nord4};
     --scrollbar-track: var(--body-background);
 
+    --show-in-light: inline;
+    --show-in-dark: none;
+
     &[data-scheme="dark"] {
         --body-background: #{$nord0};
         --accent-color: #{$nord8};
@@ -35,6 +38,9 @@ $defaultTagColors: $nord6, $nord6, $nord6, $nord6, $nord6;
         --body-text-color: #{$nord4};
         --scrollbar-thumb: #{$nord3};
         --scrollbar-track: var(--body-background);
+
+        --show-in-light: none;
+        --show-in-dark: inline;
     }
 }
 

@@ -287,3 +287,11 @@
         }
     }
 }
+
+.show-in-light {
+    display: var(--show-in-light);
+}
+
+.show-in-dark {
+    display: var(--show-in-dark);
+}
