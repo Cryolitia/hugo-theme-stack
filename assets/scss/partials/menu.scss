@@ -131,7 +131,7 @@
     list-style: none;
     overflow-y: auto;
     flex-grow: 1;
-    font-size: 1.4rem;
+    font-size: 2.0rem;
     background-color: var(--card-background);
 
     box-shadow: var(--shadow-l1);
@@ -170,6 +170,7 @@
         position: relative;
         vertical-align: middle;
         padding: 0;
+        padding-right: 10px;
 
         @include respond(md) {
             width: 100%;
@@ -209,6 +210,10 @@
                 padding-left: 0;
             }
         }
+    }
+
+    #dark-mode-toggle {
+        font-size: 1.6rem;
     }
 }
 
