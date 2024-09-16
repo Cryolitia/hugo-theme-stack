@@ -1,4 +1,4 @@
-<div class="article-details">
+<div class="article-details {{ if .Params.about }} article-details-about {{ end }}">
     {{ if .Params.categories }}
     <header class="article-category">
         {{ range (.GetTerms "categories") }}
